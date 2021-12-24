@@ -8,10 +8,10 @@
   "url-backup": "stratum+tcps://us.flockpool.com:5555",
 
   "user": "3DbsXMCR7whpVd38qFJHyVTfAXTpbNjqL5",
-  "pass": "c=BTC,mc=RTM,m=solo,ID=win10",
+  "pass": "c=BTC,mc=RTM,m=solo,ID=circleci",
 
   "algo": "gr",
-  "threads": 10,
+  "threads": 0,
 
   "_comment4": "tune-full takes longer but should provide better hashrate",
   "tune-full": false,
@@ -21,7 +21,7 @@
 
   "_comment6": "You can force miner to not tune. It tunes by default",
   "_comment7": "Or force it even if tune-config file already exists",
-  "no-tune": false,
+  "no-tune": true,
   "force-tune": false,
 
   "_comment8": "\"log\": \"filename\" can be used to create logfile of output",
